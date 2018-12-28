@@ -27,7 +27,7 @@ $java -jar project-0.0.1-SNAPSHOT.jar
 
 Use REST API with following url:
 
-'http://localhost:8080/' -- to main page
+'http://localhost:8080/ -- to main page
 
 'http://localhost:8080/books' -- to books page
 
@@ -35,8 +35,8 @@ Use REST API with following url:
 
 'http://localhost:8080/books/getBook/{id}' -- to get one book by id
 
-'http://localhost:8080/books/deleteBook/{id}' -X DELETE -- to delete one book
+'http://localhost:8080/books/deleteBook/{id} -X DELETE' -- to delete one book
 
-'http://localhost:8080/books/saveBook -d'nameBook=str&published=yyyy-MM-dd&genre=str&rating=int&nameAuthor=str&gender=str&born=yyyy-MM-dd -- to save new book
+'http://localhost:8080/books/saveBook -d"nameBook=str&published=yyyy-MM-dd&genre=str&rating=int&nameAuthor=str&gender=str&born=yyyy-MM-dd"' -- to save new book
 
-'http://localhost:8080/books/updateBook/{id} -X PUT -d "{param}={value}&{param}={value} {...etc.}" -- to update book by id
+'http://localhost:8080/books/updateBook/{id} -X PUT -d "{param}={value}&{param}={value} {...etc.}"' -- to update book by id
