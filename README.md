@@ -33,10 +33,10 @@ Use REST API with following url:
 
 'http://localhost:8080/books/getAll' -- to get all books if they available
 
-'http://localhost:8080/books/getBook/{id}' -- to get one book by id
+'http://localhost:8080/books/getBook/{id}' -- to get one book by id, where {id} - a id number, for example: 'http://localhost:8080/books/getBook/42' will retrieve book where id is 42.
 
 'http://localhost:8080/books/deleteBook/{id} -X DELETE' -- to delete one book
 
-'http://localhost:8080/books/saveBook -d"nameBook=str&published=yyyy-MM-dd&genre=str&rating=int&nameAuthor=str&gender=str&born=yyyy-MM-dd"' -- to save new book
+'http://localhost:8080/books/saveBook -d"nameBook={str}&published={yyyy-MM-dd}&genre={str}&rating={int}&nameAuthor={str}&gender={str}&born={yyyy-MM-dd}"' -- to save new book, where {str} - some text, {yyyy-MM-dd} - date format, {int} - numeric
 
 'http://localhost:8080/books/updateBook/{id} -X PUT -d "{param}={value}&{param}={value} {...etc.}"' -- to update book by id
