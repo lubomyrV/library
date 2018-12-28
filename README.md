@@ -2,7 +2,7 @@
 
 Simple RESTful Web app based on Spring framework
 
-To run this application, you need the following tools:
+To run this application, you need following tools:
 
 1)JRE,JDK v.8
 
