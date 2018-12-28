@@ -18,8 +18,11 @@ To run this application, you need following tools:
 Pay attention, there is no views pages, it is simple RESTful Web App, use REST API for testing(like Postman or cURL).
 
 To build this app you need to run:
+
 $ mvn clean compile 
+
 and
+
 $ mvn package
 
 For running the app, go to 'library/target/' and run
