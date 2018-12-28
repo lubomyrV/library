@@ -3,6 +3,7 @@
 Simple RESTful Web app based on Spring framework
 
 To run this application, you need the following tools:
+
 1)JRE,JDK v.8
 
 2)MySQL v.5.5 or MariaDB v.10
