@@ -26,7 +26,8 @@ and
 $ mvn package
 
 For running the app, go to 'library/target/' and run
-$java -jar project-0.0.1-SNAPSHOT.jar
+
+$ java -jar project-0.0.1-SNAPSHOT.jar
 
 Use REST API with following url:
 
