@@ -51,8 +51,10 @@ culr http://localhost:8080/books/getBook/{id}
 
 culr http://localhost:8080/books/deleteBook/{id} -X DELETE
 
-// to save new book, where {str} - some text, {yyyy-MM-dd} - date format in text, {int} - numeric, for example: 
-// culr http://localhost:8080/books/saveBook -d 'nameBook=The Lord of the Rings&published=1954-07-29&genre=Fantasy&rating=8&//nameAuthor=J. R. R. Tolkien&gender=male&born=1892-01-03'
+/* 
+to save new book, where {str} - some text, {yyyy-MM-dd} - date format in text, {int} - numeric, for example: 
+culr http://localhost:8080/books/saveBook -d 'nameBook=The Lord of the Rings&published=1954-07-29&genre=Fantasy&rating=8&nameAuthor=J. R. R. Tolkien&gender=male&born=1892-01-03'
+*/
 
 culr http://localhost:8080/books/saveBook -d'nameBook={str}&published={yyyy-MM-dd}&genre={str}&rating={int}&nameAuthor={str}&gender={str}&born={yyyy-MM-dd}'
 
