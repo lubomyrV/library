@@ -30,24 +30,31 @@ $ java -jar project-0.0.1-SNAPSHOT.jar
 
 Use REST API with following url for cURL:
 // to main page
+
 culr http://localhost:8080/
 
 // to books page
+
 culr http://localhost:8080/books 
 
 // to get all books if they available
+
 culr http://localhost:8080/books/getAll 
 
 //to get one book by id, where {id} - a id number, for example
 //culr http://localhost:8080/books/getBook/42  will retrieve book where id is 42.
+
 culr http://localhost:8080/books/getBook/{id} 
 
 // to delete one book
+
 culr http://localhost:8080/books/deleteBook/{id} -X DELETE
 
 // to save new book, where {str} - some text, {yyyy-MM-dd} - date format in text, {int} - numeric, for example: 
 // culr http://localhost:8080/books/saveBook -d 'nameBook=The Lord of the Rings&published=1954-07-29&genre=Fantasy&rating=8&//nameAuthor=J. R. R. Tolkien&gender=male&born=1892-01-03'
+
 culr http://localhost:8080/books/saveBook -d'nameBook={str}&published={yyyy-MM-dd}&genre={str}&rating={int}&nameAuthor={str}&gender={str}&born={yyyy-MM-dd}'
 
 // to update book by id
+
 culr http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{param}={value} {...etc.}'
