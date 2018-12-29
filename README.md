@@ -12,9 +12,9 @@ To run this application, you need following tools:
 
 4) Eclipse IDE or IntelliJ IDEA
 
-Pay attention, there is no views pages, it is simple RESTful Web App, use REST API for testing(like Postman or cURL).
+Pay attention, some changes are needed, take a look into this file 'src/main/resources/application.properties', change following fields: 'spring.datasource.username', 'spring.datasource.password' and 'spring.jpa.hibernate.dialect' to corresponding values of yours DB.
 
-Take a look into this file 'src/main/resources/application.properties' and change fields: 'spring.datasource.username', 'spring.datasource.password' and 'spring.jpa.hibernate.dialect' to corresponding values of yours DB.
+There is no views pages, it is simple RESTful Web App, use REST API for testing like Postman or cURL.
 
 To build this app you need to run:
 
