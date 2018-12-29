@@ -28,7 +28,7 @@ For running the app, go to 'library/target/' and run
 
 $ java -jar project-0.0.1-SNAPSHOT.jar
 
-Use REST API with following url for cURL:
+Use REST API with following url for cURL (or look how to do it in other REST API):
 
 /* 1. to main page */
 
