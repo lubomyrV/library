@@ -14,6 +14,8 @@ To run this application, you need following tools:
 
 Pay attention, some changes required, take a look into this file 'src/main/resources/application.properties', change following fields: 'spring.datasource.username', 'spring.datasource.password' and 'spring.jpa.hibernate.dialect' to corresponding values of your DB.
 
+After running the app will automatically create 'testDB1' database.
+
 There is no views pages, it is simple RESTful Web App, use REST API for testing like Postman or cURL.
 
 To build this app you need to run:
