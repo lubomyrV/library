@@ -43,7 +43,7 @@ curl http://localhost:8080/books
 curl http://localhost:8080/books/getAll 
 
 /*
-4.to get one book by id, where {id} - a id number, for example
+4.to get one book by id, where {id} - is a numeric, for example
 culr http://localhost:8080/books/getBook/42  will retrieve book where id is 42
 */
 
