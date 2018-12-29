@@ -18,9 +18,9 @@ There is no views pages, it is simple RESTful Web App, use REST API for testing 
 
 To build this app you need to run:
 
-$ mvn clean compile 
+$ mvn clean 
 
-and
+$ mvn compile 
 
 $ mvn package
 
