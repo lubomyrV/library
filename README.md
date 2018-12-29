@@ -29,6 +29,7 @@ For running the app, go to 'library/target/' and run
 $ java -jar project-0.0.1-SNAPSHOT.jar
 
 Use REST API with following url for cURL:
+
 // to main page
 
 culr http://localhost:8080/
