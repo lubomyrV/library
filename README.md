@@ -34,37 +34,33 @@ For running the app, go to `target/` and run
 
 Use REST API with following URL if you use cURL, or look how to do it in other REST API:
 
-/* 1. to main page */
+1. to main page
 
 `curl http://localhost:8080/`
 
-/* 2. to books page */
+2. to books page
 
 `curl http://localhost:8080/books`
 
-/* 3. to get all books if they available */
+3. to get all books if they available
 
 `curl http://localhost:8080/books/getAll`
 
-/*
 4. to get one book by id, where {id} - is a numeric, for example
 `culr http://localhost:8080/books/getBook/42`  will retrieve book where id is 42
-*/
 
 `curl http://localhost:8080/books/getBook/{id}` 
 
-/* 5. to delete one book */
+5. to delete one book
 
 `curl http://localhost:8080/books/deleteBook/{id} -X DELETE`
 
-/* 
 6. to save new book, where {str} - some text, {yyyy-MM-dd} - date format in text, {int} - numeric, for example: 
 `culr http://localhost:8080/books/saveBook -d 'nameBook=The Lord of the Rings&published=1954-07-29&genre=Fantasy&rating=8&nameAuthor=J. R. R. Tolkien&gender=male&born=1892-01-03'`
-*/
 
 `curl http://localhost:8080/books/saveBook -d'nameBook={str}&published={yyyy-MM-dd}&genre={str}&rating={int}&nameAuthor={str}&gender={str}&born={yyyy-MM-dd}'`
 
-/* 7. to update book by id */
+7. to update book by id
 
 `curl http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{param}={value} {...etc.}'`
 
