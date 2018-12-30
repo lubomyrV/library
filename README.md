@@ -28,7 +28,7 @@ $ mvn package
 
 After running the app will automatically create 'testDB1' database.
 
-For running the app, go to 'library/target/' and run
+For running the app, go to '/target/' and run
 
 $ java -jar project-0.0.1-SNAPSHOT.jar
 
