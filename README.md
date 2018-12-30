@@ -66,8 +66,4 @@ where {str} - some text, {yyyy-MM-dd} - date format in text, {int} - numeric, fo
 
 `curl http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{param}={value} {...etc.}'`
 
-
-
-
-
 p.s. thank my brother Victor for support =) 
