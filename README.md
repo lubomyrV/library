@@ -16,6 +16,8 @@ Pay attention, some changes required, take a look into this file 'src/main/resou
 
 There is no views pages, it is simple RESTful Web App, use REST API for testing like Postman or cURL.
 
+Take a look in example how it works: http://temporarily.space/books/getAll
+
 To build this app you need to run:
 
 $ mvn clean 
@@ -66,6 +68,5 @@ curl http://localhost:8080/books/saveBook -d'nameBook={str}&published={yyyy-MM-d
 
 curl http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{param}={value} {...etc.}'
 
-Take a look in example how it works: http://temporarily.space/books/getAll
 
 p.s. thank my brother Victor =) 
