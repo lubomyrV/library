@@ -66,5 +66,6 @@ curl http://localhost:8080/books/saveBook -d'nameBook={str}&published={yyyy-MM-d
 
 curl http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{param}={value} {...etc.}'
 
-Take a look in example : http://temporarily.space/books/getAll 
+Take a look in example how it works: http://temporarily.space/books/getAll
+
 p.s.thank my brother Victor =) 
