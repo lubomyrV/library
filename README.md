@@ -68,4 +68,4 @@ curl http://localhost:8080/books/updateBook/{id} -X PUT -d '{param}={value}&{par
 
 Take a look in example how it works: http://temporarily.space/books/getAll
 
-p.s.thank my brother Victor =) 
+p.s. thank my brother Victor =) 
