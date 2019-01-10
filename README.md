@@ -16,7 +16,7 @@ Pay attention, some changes required, take a look into this file `src/main/resou
 
 There is no views pages, it is simple RESTful Web App, use REST API for testing like Postman or cURL.
 
-Take a look in example how it works: http://temporarily.space/books/getAll
+Take a look in example how it works: https://temporarily.space/books/getAll
 
 To build this app you need to run:
 
