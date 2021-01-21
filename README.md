@@ -22,11 +22,11 @@ To compile this app you need to run:
 
 `$ mvn package`
 
-After running the app will automatically create `testDB1` database.
-
 In order to run the app, go to `target/` and type
 
 `$ java -jar project-0.0.1-SNAPSHOT.jar`
+
+The app will automatically create a database called `testDB1`
 
 Use REST API with following URL if you use cURL, or look how to do it in other REST API:
 
