@@ -2,23 +2,19 @@
 
 Simple RESTful Web app based on Spring framework
 
-To run this application, you need following tools:
+In order to run this application, you need following tools:
 
 1) JRE,JDK v.8
 
-2) MySQL v.5.5 or MariaDB v.10
+2) MariaDB v.10
   
 3) Apache Maven 3.3.9
 
-4) Eclipse IDE or IntelliJ IDEA
-
 Pay attention, some changes required, take a look into this file `src/main/resources/application.properties`, change following fields: `spring.datasource.username`, `spring.datasource.password` and `spring.jpa.hibernate.dialect` to corresponding values of your DB.
 
-There is no views pages, it is simple RESTful Web App, use REST API for testing like Postman or cURL.
+There are no views pages, it is a simple RESTful Web App, use REST API for testing like Postman or cURL.
 
-Take a look in example how it works: https://temporarily.space/books/getAll
-
-To build this app you need to run:
+To compile this app you need to run:
 
 `$ mvn clean`
 
@@ -28,7 +24,7 @@ To build this app you need to run:
 
 After running the app will automatically create `testDB1` database.
 
-For running the app, go to `target/` and run
+In order to run the app, go to `target/` and type
 
 `$ java -jar project-0.0.1-SNAPSHOT.jar`
 
