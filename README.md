@@ -12,7 +12,7 @@ In order to run this application, you need following tools:
 
 Pay attention, some changes required, take a look into this file `src/main/resources/application.properties`, change following fields: `spring.datasource.username`, `spring.datasource.password` and `spring.jpa.hibernate.dialect` to corresponding values of your DB.
 
-There are no views pages, it is a simple RESTful Web App, use REST API for testing like Postman or cURL.
+There are no view pages, it is a simple RESTful Web App, just use HTTP requests.
 
 To compile this app you need to run:
 
@@ -26,9 +26,9 @@ In order to run the app, go to `target/` and type
 
 `$ java -jar project-0.0.1-SNAPSHOT.jar`
 
-The app will automatically create a database called `testDB1`
+The app automatically creates a database called `testDB1`
 
-Use REST API with following URL if you use cURL, or look how to do it in other REST API:
+Examples with cURL:
 
 1. to main page
 
